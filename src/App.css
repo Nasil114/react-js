@@ -1,0 +1,13 @@
+.page {
+  width: 148mm; /* A5 width in millimeters */
+  height: 210mm; /* A5 height in millimeters */
+  margin: auto;
+  padding: 20px;
+  background-color: #f5efef; /* Page background color */
+  box-shadow: 0 0 10px rgba(107, 100, 179, 0.1); /* Optional shadow effect */
+}
+
+.content {
+  background-color: #f7f7f0; /* Yellowish background color */
+  /* Additional styling for the content within the page */
+}
