@@ -1,0 +1,75 @@
+.page {
+  width: 350mm; /* A4 width in millimeters */
+  height: 447mm; /* A4 height in millimeters */
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff; /* Page background color */
+  box-shadow: 0 0 10px rgba(107, 52, 82, 0.877); /* Optional shadow effect */
+}
+/* App.css */
+
+/* Styles for the form */
+.form-custom {
+  background-color: #f2f2f2; /* Light gray background */
+  padding: 20px;
+  border-radius: 8px; /* Curved edges */
+}
+
+/* Custom CSS for smaller, tightly packed buttons */
+.small-packed-btn {
+  padding: 0.25rem 0.5rem; /* Smaller padding */
+  font-size: 0.75rem; /* Smaller font size */
+  margin-right: 4px; /* Adjusted margin for tight packing */
+}
+
+/* Ensures the last button in a row doesn't have extra margin to the right */
+.form-row-tight-packed .row .col:last-child .btn {
+  margin-right: 0;
+}
+
+/* Adjustments for form controls and select elements for uniformity */
+.form-custom .form-control,
+.form-custom .form-select {
+  margin-bottom: 10px; /* Consistent margin for form elements */
+}
+
+/* Optional: Adjust the margin between the rows of key-value inputs */
+.form-row-tight-packed .row + .row {
+  margin-top: 15px; /* Space between key-value input rows */
+}
+
+.deploy-btn-full-width {
+  width: 100%; /* Makes the button span the full width of its container */
+  padding: 10px 0; /* Adds more padding for a larger button appearance */
+  font-size: 1.25rem; /* Larger font size for button text */
+  border-radius: 5px; /* Slightly rounded corners for a modern look */
+}
+/* Custom style for the status bar */
+.status-bar {
+  width: 100%; /* Full width to match the Deploy button */
+  height: 20px; /* Adjustable based on preference */
+  background-color: #f0f0f0; /* Light gray background */
+  border-radius: 5px; /* Rounded corners */
+  margin-top: 10px; /* Space between the Deploy button and the status bar */
+  display: flex; /* Enables alignment of inner text or elements */
+  align-items: center; /* Center items vertically */
+  padding-left: 10px; /* Padding for any text or status indicator inside */
+  color: #333; /* Text color */
+  font-size: 0.875rem; /* Text size */
+}
+
+/* Example styles for different statuses */
+.status-bar.success {
+  background-color: #d4edda; /* Green background for success */
+}
+
+.status-bar.error {
+  background-color: #f8d7da; /* Red background for errors */
+}
+
+.status-bar.processing {
+  background-color: #d1ecf1; /* Blue background for processing */
+}
+
+
+
